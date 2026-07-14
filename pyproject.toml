@@ -9,7 +9,7 @@ description = "Move and rename Markdown notes while rewriting every Markdown and
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "JaydenCJ" }]
+authors = [{ name = "JaydenCJ", email = "aisingioro.kiyon@gmail.com" }]
 keywords = ["markdown", "wiki-links", "notes", "refactoring", "obsidian", "backlinks", "undo"]
 classifiers = [
     "Development Status :: 3 - Alpha",
