@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="720" height="440" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="360" y="27" fill="#8b949e" text-anchor="middle" font-size="12">linkmend — reorganize the vault, keep every link</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> linkmend mv Projects/Alpha.md "Archive/2026/Alpha (done).md"</text>
+    <text x="24" y="88">moved <tspan fill="#79c0ff">1 file</tspan>, rewrote <tspan fill="#79c0ff">8 links</tspan> in <tspan fill="#79c0ff">3 files</tspan>  (transaction <tspan fill="#d2a8ff">#1</tspan>)</text>
+    <text x="24" y="110">  Projects/Alpha.md <tspan fill="#8b949e">-&gt;</tspan> Archive/2026/Alpha (done).md</text>
+    <text x="24" y="132">  Projects/Alpha.md: <tspan fill="#7ee787">2 links rewritten</tspan></text>
+    <text x="24" y="154">  Projects/Beta.md: <tspan fill="#7ee787">2 links rewritten</tspan></text>
+    <text x="24" y="176">  index.md: <tspan fill="#7ee787">4 links rewritten</tspan></text>
+    <text x="24" y="198" fill="#8b949e">undo with: linkmend undo 1</text>
+    <text x="24" y="232"><tspan fill="#7ee787">$</tspan> linkmend check</text>
+    <text x="24" y="258"><tspan fill="#7ee787">no broken links</tspan>  (checked 10 links in 3 notes)</text>
+    <text x="24" y="292"><tspan fill="#7ee787">$</tspan> linkmend undo</text>
+    <text x="24" y="318">undid transaction <tspan fill="#d2a8ff">#1</tspan>: mv Projects/Alpha.md Archive/2026/Alpha (done).md</text>
+    <text x="24" y="340">  (<tspan fill="#79c0ff">1 file</tspan> moved back, <tspan fill="#79c0ff">3 notes</tspan> restored)</text>
+    <text x="24" y="374"><tspan fill="#7ee787">$</tspan> linkmend check</text>
+    <text x="24" y="400"><tspan fill="#7ee787">no broken links</tspan>  (checked 10 links in 3 notes)</text>
+  </g>
+</svg>
